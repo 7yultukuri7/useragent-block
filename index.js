@@ -91,4 +91,4 @@ class Useraghent_block {
   }
 }
 
-module.exports = ReactionController;
+module.exports = Useraghent_block;
