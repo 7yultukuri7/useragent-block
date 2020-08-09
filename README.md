@@ -4,7 +4,7 @@
 ユーザーエージェントから
 * 脆弱性のあるブラウザー・OS　False
 * バージョンが判別できないブラウザー・OS　False
-* 7yultukuri7さんが設定したブラウザー　true
+* 7yultukuri7さんが設定したブラウザー　true(文字列で返されるのでtrueになります。)
 ```js
 const ReactionController = require('useragent-block')
 //こんなかんじ（適当）
