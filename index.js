@@ -19,16 +19,10 @@ const Supported_OS = {
       //追加してほしい場合は、7yuさんと相談してください。
     };
 
-class ReactionController {
+class Useraghent_block {
   constructor(useragent) {
     this.useragent = useragent;
     this.ue = parser(useragent);
-    this.collector = null;
-    this.emojis = {
-      back: "◀️",
-      next: "▶️",
-      close: "⏹️"
-    };
   }
 
   getResult() {
