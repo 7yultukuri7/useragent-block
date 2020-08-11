@@ -6,7 +6,7 @@
 * バージョンが判別できないブラウザー・OS　False
 * 7yultukuri7さんが設定したブラウザー　true(文字列で返されるのでtrueになります。)
 ```js
-const ReactionController = require('useragent-block')
+const Useraghent_block = require('useragent-block')
 //こんなかんじ（適当）
 
 const o = new Useraghent_block(
